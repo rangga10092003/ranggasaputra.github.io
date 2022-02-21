@@ -11,6 +11,9 @@
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
 
@@ -69,10 +72,10 @@
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-5">
+          <div class="col-md-5" data-aos="fade-right">
             <p>Hallo, perkenalkan nama saya Rangga Saputra asal dari kota Cimahi. Disini saya sedang berlatih untuk mengembangkan kembali kemampuan saya dalam memebuat sebuah website.</p>
           </div>
-          <div class="col-md-5">
+          <div class="col-md-5" data-aos="fade-left" data-aos-delay="200">
             <p>Website ini dibuat dengan menggunakan Html,Css dan dikombinasikan dengan FrameWork terbaru, Yaitu Bootstrap Versi 5.1.3. dan juga Website ini telah di Hosting agar bisa di Akses Online dengan Menggunakan Github.</p>
           </div>
         </div>
@@ -97,7 +100,7 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500">
               <img src="img/projects/3.jpg" class="card-img-top" alt="projects 1" />
               <div class="card-body">
                 <p class="card-text">Ini adalah gambar untuk ruang kerja impian saya.</p>
@@ -105,32 +108,35 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/projects/2.jpg" class="card-img-top" alt="projects 5" />
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
+              <img src="img/projects/5.jpg" class="card-img-top" alt="projects 5" />
               <div class="card-body">
                 <p class="card-text">Ini adalah gambar untuk ruang kerja impian saya.</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/projects/5.jpg" class="card-img-top" alt="projects 3" />
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
+              <img src="img/projects/1.jpg" class="card-img-top" alt="projects 3" />
               <div class="card-body">
                 <p class="card-text">Ini adalah gambar untuk ruang kerja impian saya.</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="300">
               <img src="img/projects/4.jpg" class="card-img-top" alt="projects 3" />
               <div class="card-body">
-                <p class="card-text">Ini adalah gambar untuk ruang kerja impian saya.</p>
+                <p class="card-text">
+                  Ini adalah gambar untuk ruang kerja impian saya. <br />
+                  <br />
+                </p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/projects/1.jpg" class="card-img-top" alt="projects 3" />
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
+              <img src="img/projects/2.jpg" class="card-img-top" alt="projects 3" />
               <div class="card-body">
                 <p class="card-text">Ini adalah gambar untuk ruang kerja impian saya.</p>
               </div>
@@ -147,6 +153,72 @@
       </svg>
     </section>
     <!-- Akhir Projects -->
+
+    <!-- Gallery -->
+    <section>
+      <div id="gallery">
+        <div class="container">
+          <div class="row text-center mb-3">
+            <div class="col">
+              <h2>Gallery</h2>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-3">
+              <a href="#">
+                <img src="img/thumbnail/1.png" alt="Gambar 1" class="img-fluid gallery-img" />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="#">
+                <img src="img/thumbnail/2.png" alt="Gambar 2" class="img-fluid gallery-img" />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="#">
+                <img src="img/thumbnail/3.png" alt="Gambar 3" class="img-fluid gallery-img" />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="#">
+                <img src="img/thumbnail/4.png" alt="Gambar 4" class="img-fluid gallery-img" />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="#">
+                <img src="img/thumbnail/5.png" alt="Gambar 5" class="img-fluid gallery-img" />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="#">
+                <img src="img/thumbnail/6.png" alt="Gambar 6" class="img-fluid gallery-img" />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="#">
+                <img src="img/thumbnail/7.png" alt="Gambar 7" class="img-fluid gallery-img" />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="#">
+                <img src="img/thumbnail/8.png" alt="Gambar 8" class="img-fluid gallery-img" />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="#">
+                <img src="img/thumbnail/9.png" alt="Gambar 9" class="img-fluid gallery-img" />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="#">
+                <img src="img/thumbnail/10.png" alt="Gambar 10" class="img-fluid gallery-img" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Gallery -->
 
     <!-- Contact -->
     <section id="contact">
@@ -212,6 +284,21 @@
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      const galleryImage = document.querySelectorAll('.gallery-img');
+
+      galleryImage.forEach((img, i) => {
+        img.dataset.aos = 'fade-down';
+        img.dataset.aosDelay = i * 100;
+        img.dataset.aosDuration = 1000;
+      });
+
+      AOS.init({
+        once: true,
+      });
+    </script>
 
     <script>
       const scriptURL = 'https://script.google.com/macros/s/AKfycbyoK2mP7eOjnT_Z-HdY1SaB-011EVVB4ia_0C-IIYOA4AuATKIwdncJbDVri0Ni0v97MQ/exec';
