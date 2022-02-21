@@ -39,6 +39,9 @@
               <a class="nav-link active" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link active" href="#my-keyboards">StarterPack</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link active" href="#gallery">Gallery</a>
             </li>
             <li class="nav-item">
@@ -76,12 +79,10 @@
         </div>
         <div class="row justify-content-center fs-5 text-center">
           <div class="col-md-5" data-aos="fade-right" data-aos-duration="2000">
-            <p>Hallo, perkenalkan nama saya Rangga Saputra asal dari kota Cimahi. Disini saya sedang berlatih untuk mengembangkan kembali kemampuan saya dalam memebuat sebuah website.</p>
+            <p>Hallo, perkenalkan nama saya Rangga Saputra asal dari kota Cimahi. Disini saya sedang berlatih untuk mengembangkan kembali kemampuan saya dalam membuat sebuah website.</p>
           </div>
           <div class="col-md-5" data-aos="fade-left" data-aos-duration="2000">
-            <p>
-              Website ini dibuat dengan menggunakan Html,Css,Java Script dan dikombinasikan dengan FrameWork terbaru, Yaitu Bootstrap Versi 5.1.3. dan juga Website ini telah di Hosting agar bisa di Akses Online dengan Menggunakan Github.
-            </p>
+            <p>Website ini dibuat dengan menggunakan Html,Css,Java Script dan dikombinasikan dengan FrameWork, Yaitu Bootstrap Versi 5.1.3. dan juga Website ini telah di Hosting agar bisa di Akses Online dengan Menggunakan Github Pages.</p>
           </div>
         </div>
       </div>
@@ -149,6 +150,42 @@
           </div>
         </div>
       </div>
+
+      <section id="my-keyboards">
+        <div class="container">
+          <div class="row text-center mb-3">
+            <div class="col">
+              <h2>StarterPack Ngoding</h2>
+              <br />
+              <br />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="keyboard-box">
+                <h4 class="keyboard-name">Logitech MK240 Nano</h4>
+                <img src="img/keyboards/keyboard.png" alt="Logitech MK240 Nano" class="keyboard-img" />
+                <a class="btn btn-light keyboard-detail-button">Show Details</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="keyboard-box">
+                <h4 class="keyboard-name">Logitech MK240 Nano</h4>
+                <img src="img/keyboards/mouse.png" alt="Mouse" class="keyboard-img" />
+                <a class="btn btn-light keyboard-detail-button">Show Details</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="keyboard-box">
+                <h4 class="keyboard-name">Kopi</h4>
+                <img src="img/keyboards/kopi.png" alt="kopi" class="keyboard-img" />
+                <a class="btn btn-light keyboard-detail-button">Show Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -345,6 +382,15 @@
             console.log('Success!', response);
           })
           .catch((error) => console.error('Error!', error.message));
+      });
+    </script>
+
+    <script type="text/javascript" src="js/vanilla-tilt.min.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelectorAll('.keyboard-box'), {
+        max: 35,
+        speed: 500,
+        glare: true,
       });
     </script>
   </body>
